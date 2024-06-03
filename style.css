@@ -1,0 +1,193 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+a{
+    color: #222831;
+}
+
+.float{
+    margin-left: 38%;
+}
+
+
+#title {
+    background-color: #FFFDB5;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+
+}
+
+.navbar{
+    padding: 20px;
+}
+
+.avif_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container */
+  }
+
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: "Montserrat", "Helvetica Neue";;
+    font-size: 1.2rem;
+    color:black;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.new_img{
+    height: 50x;
+    width: 50px;
+}
+/* At Feature Section */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+   color: #222831;
+   margin-bottom: 1rem;
+}
+
+
+
+/* At Testimonials Section */
+#testimonials{
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-image2{
+    width: 13%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.carousel-new{
+    padding: 7% 0%;
+}
+
+.btn-custom:hover{
+    background-color: #FFFDB5;
+}
+
+/* pricing Section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+    background-color: #FFFDB5;
+    color: #000;
+}
+
+.price-column{
+    padding: 3% 2%;
+}
+
+.image_service {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out; 
+}
+  
+.image_service:hover {
+    transform: scale(1.1); 
+  }
+
+/* Footer */
+#cta{
+    padding: 5% 10%;
+    text-align: center;
+    background-color: #FFFDB5;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+}
+
+.cta_images{
+    width: 50%;
+    height: 50%;
+}
+
+#footer{
+    padding: 5% 15% 0%;
+    text-align: center;
+}
+
+.footer-icon{
+    margin: 20px 10px;
+    size: 3rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer-icon:hover{
+    transform: scale(1.5);
+}
+
+@media (max-width: 980px) {
+    #title{
+        text-align: center;
+    }
+    .nav-item{
+        margin-left: 247px;
+    }
+    .float{
+        margin-left: 20%;
+    }
+    .calgameimg{
+        width: 100%;
+    }
+}
